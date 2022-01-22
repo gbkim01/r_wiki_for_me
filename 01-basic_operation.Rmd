@@ -6,9 +6,10 @@
 
 ```{r}
 tibble(
-  기호 = c("[+]", "[-]", "[*]", "[%]"),
-  설명 = c("덧셈", "뺄셈", "곱셈", "나눗셈")
-) %>% kable()
+  기호 = c("`+`", "`-`", "`*`", "`**, ^2`", "`/`", "`%%`", "`%/%`"),
+  설명 = c("덧셈", "뺄셈", "곱셈", "제곱", "나눗셈", "몫", "나머지")
+) %>% knitr::kable(format = "html", align = "cc", caption = "사칙연산") # %>%
+  # kable_styling(full_width = F)
 ```
 
 ## 기초 기술통계
@@ -17,6 +18,6 @@ tibble(
 tibble(
   명령어 = c("sum", "mean", "max", "min"),
   설명 = c("총합", "평균", "최대값", "최소값")
-) %>% kable()
+) %>% kable(format = "html", align = "cc", caption = "간단 기술통계") # %>%
+  # kable_styling(full_width = F)
 ```
-
