@@ -1,4 +1,5 @@
-This is a template for creating an [HTML GitBook style](https://bookdown.org/yihui/bookdown/html.html#gitbook-style) **[bookdown](https://github.com/rstudio/bookdown)** book, [hosted on GitHub Pages](https://bookdown.org/yihui/bookdown/github.html). It is based on the one created with *File, New Project..., New Directory, Book Project using bookdown* in RStudio. It assumes you know how to use git/GitHub and R Markdown, and have some familiarity with the **bookdown** package. If you don't, the package author Yihue Xie's RStudio webinar *[Introduction to Bookdown (R Package)](https://www.youtube.com/watch?v=dVqVscgwSpw)* provides an excellent introduction. In addition, check out [*bookdown: Authoring Books and Technical Documents with R Markdown*](https://bookdown.org/yihui/bookdown), also by Yihui Xie, both for the content and the format--it is itself a **bookdown** book.
+R을 사용하면서 얻은 Tip을 정리할 요량으로 만들었다. 
+이 웹페이지를 만들기 위해 [이 템플릿](https://github.com/jtr13/bookdown-template)과 [이 동영상](https://www.youtube.com/watch?v=m5D-yoH416Y&t=192s)을 참고했다.
 
 
 ## ABSOLUTE ESSENTIALS
