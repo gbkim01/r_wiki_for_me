@@ -1,2 +1,3 @@
-the-pool-of-tears
-a-caucus-race-and-a-long-tale
+기초-셈법
+사칙연산
+기초-기술통계

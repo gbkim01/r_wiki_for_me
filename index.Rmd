@@ -3,9 +3,31 @@ title: "개인용 R wiki"
 author: "김강배"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+editor_options: 
+  chunk_output_type: console
 ---
 
+```{r setup}
+knitr::opts_chunk$set(  
+  tidy=FALSE,     # display code as typed
+  size="small",   # slightly smaller font for code
+  echo = TRUE, 
+  message=F, 
+  warning = F, 
+  comment = "")
+
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+
+```
 
 # 개요 {-}
 
-이 파일은 테스트입니다. 
+---
+ 
+이 파일은 테스트입니다.
+
+```{r}
+plot(1:10, main = "테스트", type="b", col = "blue")
+```
